@@ -132,7 +132,6 @@
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
-
 }
 
 .section-subtitle {
@@ -151,12 +150,13 @@
 }
 
 .table__cell {
-  padding-top: 60px;
+  margin-top: 60px;
   width: 250px;
 }
 
 .table__heading {
   margin: 0;
+  padding: 0;
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 600;
@@ -171,7 +171,81 @@
   line-height: 1.2;
 }
 .table__text_no_margin {
-  margin:0;
+  margin: 0;
+}
+
+.feynman {
+  height: 890px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  background-position: 0 100%;
+}
+
+.feynman__title {
+  margin: 100px 0 0;
+  width: 648px;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+  z-index: 1;
+}
+.feynman__subtitle {
+  margin: 70px 0 0;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  z-index: 1;
+}
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
+}
+
+.section-title_theme_dark {
+  margin: 90px 0 20px;
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  border: 1px solid wheat;
+}
+
+.section-subtitle_theme_dark {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  color: white;
+  border: 1px solid wheat;
+}
+
+.table_theme_dark {
+  margin: 0 0 90px;
+  z-index: 1;
+  border: 1px solid wheat;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -180,13 +254,28 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  align-items: flex-end;
+  border: 1px solid wheat;
+}
+.table__heading_theme_dark {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.table__text_theme_dark {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
 }
 
 section {
   border: 1px solid red;
 }
 
-.section_space_top {
+.section_space_top_l {
   margin-top: 100px;
 }
-
+.section_space_top_m {
+  margin-top: 90px;
+}
