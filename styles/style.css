@@ -9,12 +9,8 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.section_space_top_l {
-  margin-top: 100px;
-}
-
-.section_space_top_m {
-  margin-top: 90px;
+.section_space_bottom {
+  margin-bottom: 100px;
 }
 
 .flex-row {
