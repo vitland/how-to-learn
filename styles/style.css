@@ -46,6 +46,7 @@
 }
 
 .header__title {
+  margin: 0;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -75,6 +76,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -82,7 +84,6 @@
   line-height: 25px;
   font-size: 18px;
   z-index: 2;
-
 }
 
 .header__link {
