@@ -61,7 +61,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .header__subtitle {
@@ -193,7 +193,6 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: 0 100%;
-  z-index: -1;
 }
 
 .feynman__title {
@@ -275,7 +274,6 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  flex-basis: 711px;
   min-height: 350px;
   background-color: #1f1f1f;
 }
