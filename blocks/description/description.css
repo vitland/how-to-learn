@@ -1,4 +1,5 @@
-.description { 
-    display: flex;
-    justify-content: space-around;
-  }
+.description {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
